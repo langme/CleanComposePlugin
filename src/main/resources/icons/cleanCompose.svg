@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+    <!-- Masque hexagonal redimensionné -->
+    <mask id="hexMask" width="16.9" height="18" x="3.55" y="3" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="#1D1D1B" d="M19.588 6.67A1.566 1.566 0 0 1 20.45 8.07v7.864a1.566 1.566 0 0 1-.862 1.399L12.704 20.796a1.566 1.566 0 0 1-1.408 0L4.412 17.332a1.566 1.566 0 0 1-.862-1.399V8.069c0-.562.316-.957.862-1.399L11.296 3.205a1.566 1.566 0 0 1 1.408 0l6.884 3.465Z"/>
+    </mask>
+
+    <!-- Éléments masqués -->
+    <g mask="url(#hexMask)">
+        <!-- Partie droite bleue foncée -->
+        <path fill="#1967D2" d="m20.429 7.047-8.408 4.275-.025 9.802 7.656-3.835a1.407 1.407 0 0 0 .777-1.258V7.047Z"/>
+
+        <!-- Partie droite bleue claire -->
+        <path fill="#4285F4" d="m19.91 7.286-8.095 4.073v9.42l7.32-3.684a1.407 1.407 0 0 0 .775-1.257V7.286Z"/>
+
+        <!-- Partie supérieure verte -->
+        <path fill="#34A853" d="M11.366 3.145a1.407 1.407 0 0 1 1.26 0l7.802 3.907-8.432 4.263L3.564 7.052l7.802-3.907Z"/>
+
+        <!-- Partie supérieure vert clair -->
+        <path fill="#5DD17C" d="M11.372 3.569a1.407 1.407 0 0 1 1.256 0l6.737 3.36-7.365 3.708-7.365-3.708 6.737-3.36Z" opacity=".5"/>
+
+        <!-- Partie gauche noire -->
+        <path fill="#000" d="M3.55 7.047 12 11.312v9.834L4.324 17.283a1.407 1.407 0 0 1-.775-1.026V7.047Z"/>
+
+        <!-- Partie gauche bleue transparente -->
+        <path fill="#4285F4" d="m3.564 7.047 8.457 4.275v9.827l-7.682-3.86a1.407 1.407 0 0 1-.775-1.257V7.047Z" opacity=".2"/>
+    </g>
+
+    <!-- Hexagone intérieur noir -->
+    <path fill="#1D1D1B" d="M15.659 8.173a2.251 2.251 0 0 1 1.239 2.01v2.903a2.251 2.251 0 0 1-1.239 2.011l-2.647 1.332a2.251 2.251 0 0 1-2.024 0l-2.647-1.332a2.251 2.251 0 0 1-1.239-2.01v-2.903a2.251 2.251 0 0 1 1.239-2.011l2.647-1.332a2.251 2.251 0 0 1 2.024 0l2.647 1.332Z" opacity=".2" style="mix-blend-mode:multiply"/>
+
+    <!-- Partie inférieure noire -->
+    <path fill="#202124" d="M12 16.668v-5.357l-4.57-2.3a2.242 2.242 0 0 0-.328 1.168v2.91c0 .848.479 1.625 1.238 2.007l2.645 1.33a2.257 2.257 0 0 0 1.015.241Z"/>
+
+    <!-- Masque hexagonal intérieur -->
+    <mask id="innerHexMask" width="6.6" height="6.85" x="8.7" y="8.2" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="#E6F4EA" d="M14.64 9.435a1.126 1.126 0 0 1 .62 1.005v2.39a1.126 1.126 0 0 1-.62 1.006l-2.134 1.074a1.126 1.126 0 0 1-1.012 0L9.36 13.836a1.126 1.126 0 0 1-.62-1.005v-2.39c0-.622.31-.956.62-1.006l2.134-1.074a1.126 1.126 0 0 1 1.012 0l2.134 1.074Z"/>
+    </mask>
+
+    <!-- Éléments masqués intérieurs -->
+    <g mask="url(#innerHexMask)">
+        <path fill="#E6F4EA" d="M14.64 9.435a1.126 1.126 0 0 1 .62 1.005v2.39a1.126 1.126 0 0 1-.62 1.006l-2.134 1.074a1.126 1.126 0 0 1-1.012 0L9.36 13.836a1.126 1.126 0 0 1-.62-1.005v-2.39c0-.622.31-.956.62-1.006l2.134-1.074a1.126 1.126 0 0 1 1.012 0l2.134 1.074Z"/>
+
+        <!-- Ombres -->
+        <path fill="#000" d="m3.535 7 8.45 4.252v9.834l-7.676-3.862a1.407 1.407 0 0 1-.774-1.257V7Z" opacity=".4"/>
+        <path fill="#000" d="M20.45 6.964 12 11.216v9.834l7.675-3.862a1.407 1.407 0 0 0 .775-1.257V6.964Z" opacity=".15"/>
+    </g>
+
+    <!-- Balai transformé (échelle ajustée à 0.6) -->
+    <g transform="translate(12,12) rotate(45) scale(0.6)">
+        <path d="M-2,-8 L2,-8 L2,4 L-2,4 Z" fill="#8B4513"/>
+        <path d="M-4,4 L4,4 L6,8 L-6,8 Z" fill="#DEB887"/>
+    </g>
+</svg>

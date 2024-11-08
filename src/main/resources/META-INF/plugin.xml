@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.example.cleancompose</id>
+    <name>CleanCompose Generator</name>
+    <vendor>Votre Nom</vendor>
+    <description>Générateur de structure Clean Architecture pour Compose</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <!-- Suppression de la dépendance Android -->
+
+    <actions>
+        <action id="com.example.CleanComposeAction"
+                class="com.example.CleanComposeAction"
+                text="CleanCompose"
+                description="Crée une structure Clean Architecture"
+                icon="/icons/cleanCompose.svg">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
